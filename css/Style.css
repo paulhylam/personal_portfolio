@@ -11,7 +11,12 @@ body {
   color: #2d3c49;
 }
 
-header, nav, footer, section, article, div {
+header,
+nav,
+footer,
+section,
+article,
+div {
   box-sizing: border-box;
 }
 
@@ -39,12 +44,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  padding:12px;
+  padding: 12px;
 }
 
 .header__logo {
   height: 72px;
-  weight: 25%;
   vertical-align: top;
   margin-top: 12px;
   margin-bottom: 12px;
@@ -63,18 +67,18 @@ ul {
 }
 
 .header__title {
-  font-weight: 250;
+  font-weight: 200;
   font-size: 3em;
   font-family:'Roboto', 'Helvetica', sans-serif;
   color: #2d3c49;
   display: block;
   text-align: right;
   bottom: 3px;
-  margin-bottom: 15;
+  margin-bottom: 15px;
 }
 
 .header__subtitle {
-  font-weight: 150;
+  font-weight: 100;
   font-size: 1.5em;
   display: block;
   color: #2d3c49;
@@ -96,7 +100,7 @@ ul {
 }
 
 .header__title {
-  font-weight: 150;
+  font-weight: 100;
   font-size: 1.5em;
   font-family:'Roboto', 'Helvetica', sans-serif;
   color: #2d3c49;
@@ -221,7 +225,7 @@ main {
 .portfolio-grid-header {
   width: 100%;
   text-align: left;
-  padding: 24px
+  padding: 24px;
   color: #7d97ad;
   font-size: 1.5em;
 }
